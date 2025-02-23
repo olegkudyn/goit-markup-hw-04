@@ -380,7 +380,11 @@ width: 360px;
 }
 
 .footer-container {
-display: flex;
+    display: flex;
+    align-items: baseline
+}
+.logo-container {
+ margin-right: 120px;
 }
 
 .footer-logo {
@@ -394,7 +398,6 @@ display: flex;
         letter-spacing: 0.02em;
         color: #f4f4fd;
         max-width: 264px;
-        margin-right: 120px;
     }
     
 .social-media-list {
